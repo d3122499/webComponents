@@ -6143,17 +6143,23 @@ a.badge:focus {
     background-color: #005EB8;
     color: white;
     padding: 20px;
-    margin-right: 20px;
+    margin-right: 0px;
     border-radius: 10px;
 }
 .headerTittleStyleError {
     background-color: red;
     color: white;
     padding: 15px;
-    margin-right: 20px;
     border-radius: 10px;
+    margin-right: 30px;
 }
 
+.headerTittleStyleErrorPermission {
+    background-color: red;
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+}
 
 .jumbotronTittle {
     height: 110px;
@@ -6170,7 +6176,6 @@ a.badge:focus {
     color: white;
     font-style: italic;
 }
-
 
 .jumbotronSub {
     color: white;
@@ -8313,4 +8318,3 @@ button.close {
         display: none !important;
     }
 }
-/*# sourceMappingURL=bootstrap.css.map */

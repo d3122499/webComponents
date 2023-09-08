@@ -50,3 +50,12 @@
     font-style:italic;
     z-index: 999;
 }
+.LabelErrorBasicStyle
+{
+    display:inline-block;
+    color:White;
+    background-color:Red;
+    width: 100%;
+    padding: 20px;
+    border-radius: 20px;
+}

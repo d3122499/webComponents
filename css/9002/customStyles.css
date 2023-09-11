@@ -59,7 +59,7 @@
     padding: 20px;
     border-radius: 20px;
 }
-.textAreaDisabled
+.textAreaResizeDisabled
 {
     resize: none;
 }

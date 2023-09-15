@@ -59,7 +59,13 @@
     padding: 20px;
     border-radius: 20px;
 }
+/* TextBoxStyle */
 .textAreaResizeDisabled
 {
     resize: none;
+}
+/* TextBoxStyle */
+.textAreaFullWidth
+{
+  min-width: 100%;
 }

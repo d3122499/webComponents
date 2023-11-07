@@ -1,0 +1,73 @@
+/*! CSS Custom Styles - v1.1 - 2023-01-01
+* Includes:
+* Copyright; Licensed MIT */
+
+/* Layout helpers
+----------------------------------*/
+/* Grid */
+.centerHeaderText th {
+    text-align: center;
+}
+.maxWidthGrid
+{
+    max-width: 100px;
+    overflow: hidden;
+}
+
+/* AutoExtender */
+.AutoExtender {
+    border: solid 1px #444444;
+    margin: 0px;
+    padding: 2px;
+    height: 100px;
+    overflow: auto;
+    background-color: #FFFFFF;
+}
+
+.AutoExtenderList {
+    color: #1C1C1C;
+}
+
+.AutoExtenderHighlight {
+    background-color: #ffc0c0;
+}
+
+/* Alert Loading */
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: black;
+    z-index: 99;
+    opacity: 0.8;
+    filter: alpha(opacity=80);
+    -moz-opacity: 0.8;
+    min-height: 100%;
+    width: 100%;
+}
+.loading{
+    font-family: Arial;
+    font-size: 10pt;
+    border: 5px solid #67CFF5;
+    width: 200px;
+    height: 100px;
+    display: none;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.5);
+    color:white;
+    font-style:italic;
+    z-index: 999;
+}
+
+/* Label Ext File Exception  */
+.LabelExtFileException{
+    display: inline-block;
+    background-color: #B3C5F4;
+    font-weight: bold;
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+

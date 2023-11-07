@@ -69,3 +69,13 @@
 {
   min-width: 100%;
 }
+
+/* Label Ext File Exception  */
+.LabelExtFileException{
+    display: inline-block;
+    background-color: #B3C5F4;
+    font-weight: bold;
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+}

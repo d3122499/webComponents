@@ -181,6 +181,12 @@
 	overflow: visible;
 }
 
+.ui-datepicker-trigger {
+	position: absolute;
+	top: 25px;
+	left: 160px;
+}
+
 .ui-button,
 .ui-button:link,
 .ui-button:visited,

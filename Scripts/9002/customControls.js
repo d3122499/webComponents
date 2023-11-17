@@ -33,7 +33,6 @@ function checkAll(objRef) {
                     else {
                         row.style.backgroundColor = "white";
                     }
-
                     inputList[i].checked = false;
                 }                        
             }

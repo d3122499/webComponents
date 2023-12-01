@@ -15,7 +15,7 @@
 }
 .WidthGridHeader
 {
-    width: 150px;    
+    max-width: 150px;    
 }
 /* TextBox Styles */
 .textBoxRightJustified {

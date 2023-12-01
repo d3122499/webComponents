@@ -13,7 +13,10 @@
     max-width: 100px;
     overflow: hidden;
 }
-
+.WidthGridHeader
+{
+    width: 150px;    
+}
 /* TextBox Styles */
 .textBoxRightJustified {
     Text-align: right;

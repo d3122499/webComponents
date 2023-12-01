@@ -13,9 +13,9 @@
     max-width: 100px;
     overflow: hidden;
 }
-.widthGridItem td
+.widthGridItem
 {
-    max-width: 150px;    
+    min-width: 150px;    
 }
 /* TextBox Styles */
 .textBoxRightJustified {

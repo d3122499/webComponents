@@ -68,6 +68,11 @@
     padding-left: 10px;
     padding-right: 10px;
 }
+/* TextBox Full Width */
+.textBoxFullFill{
+    width: 100%;
+    min-width: 100%;
+}
 
 
 

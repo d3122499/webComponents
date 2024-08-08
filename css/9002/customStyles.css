@@ -173,3 +173,29 @@
     color: white;
     font-style: italic;
 }
+
+.divSearchPanel{
+    background-color:white;
+    border-radius: 30px;
+    margin-bottom:30px;
+    padding:20px;
+}
+
+.divGridOuterPanel{
+    padding:10px;
+    background-color:white;
+    border-radius: 30px;
+    margin-bottom:30px;
+}
+
+.divGridScrollPanel{
+    overflow:auto;
+    margin:5px;
+}
+
+.divFooterPanel{
+    padding:10px;
+    background-color:white;
+    border-radius:30px;
+    margin-bottom:30px;
+}

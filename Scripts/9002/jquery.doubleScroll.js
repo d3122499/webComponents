@@ -138,3 +138,19 @@
 	}
 
 }( jQuery ));
+
+$(document).ready(function() {
+
+	var double_scroll = document.getElementsByClassName('double-scroll');
+	if (double_scroll !== null)
+	{
+		$('.double-scroll').doubleScroll();
+	}
+		
+	var double_scroll_resize = document.getElementsByClassName('double-scroll-resize');
+	if (double_scroll_resize !== null)
+	{
+		$('.double-scroll-resize').doubleScroll({resetOnWindowResize: true});
+	}	
+  
+});

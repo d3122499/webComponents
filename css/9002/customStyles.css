@@ -259,7 +259,7 @@ body {
   content:"Activar!";
 }
 */
-.Btn-Activate:before {
+.Btn-Activate:hover::after {
   content:"Activar!";
 }
 .Btn-Deactivate:hover{
@@ -272,6 +272,6 @@ body {
   content:"Desactivar!";
 }
 */
-.Btn-Deactivate:before {
+.Btn-Deactivate:hover::after {
   content:"Desactivar!";
 }

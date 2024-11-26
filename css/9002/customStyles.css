@@ -249,3 +249,19 @@ body {
     margin-right: auto;
     width: 15%;
 }
+.Btn-Activate:hover{
+    color: #fff;
+    background-color: #0b5ed7;
+    border-color: #0a58ca;
+}
+.Btn-Activate:hover:before {
+  content:"Activar!";
+}
+.Btn-Deactivate:hover{
+    color: #fff;
+    background-color: #dc3545;
+    border-color: #dc3545;
+}
+.Btn-Deactivate:hover:before {
+  content:"Desactivar!";
+}

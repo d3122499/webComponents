@@ -254,7 +254,12 @@ body {
     background-color: #0b5ed7;
     border-color: #0a58ca;
 }
+/*
 .Btn-Activate:hover:before {
+  content:"Activar!";
+}
+*/
+.Btn-Activate:before {
   content:"Activar!";
 }
 .Btn-Deactivate:hover{
@@ -262,6 +267,11 @@ body {
     background-color: #dc3545;
     border-color: #dc3545;
 }
+/*
 .Btn-Deactivate:hover:before {
+  content:"Desactivar!";
+}
+*/
+.Btn-Deactivate:before {
   content:"Desactivar!";
 }

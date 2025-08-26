@@ -46,17 +46,17 @@
     width: 100%;
 }
 .loading{
-    font-family: Arial;
+    /* font-family: Arial;
     font-size: 10pt;
     border: 5px solid #67CFF5;
     width: 200px;
-    height: 100px;
+    height: 100px;*/
     display: none;
-    position: fixed;
+    /* position: fixed;
     background-color: rgba(0, 0, 0, 0.5);
     color:white;
     font-style:italic;
-    z-index: 999;
+    z-index: 999; */
 }
 
 /* Label Ext File Exception  */
@@ -73,6 +73,7 @@
     width: 100%;
     min-width: 100%;
 }
+
 
 
 

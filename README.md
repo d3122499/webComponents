@@ -66,16 +66,6 @@ Lifecycle Management: Telemetry and initialization hooks
 // Initialization
 ScriptRegister.InitializeResourceManifest(page); 
 
-// Core registration logic (Example from ScriptRegister.cs)
-if (pagePath.EndsWith("App_Alerta_Contactos_Notificaciones.aspx", StringComparison.OrdinalIgnoreCase))
-{
-    // Inject custom CSS
-    page.ClientScript.RegisterStartupScript(page.GetType(), "clientScript500", string.Format("<link rel=\"stylesheet\" type=\"text/css\" href=\"{0}\" />", "[https://d3122499.github.io/webComponents/css/9002/customStyles.css](https://d3122499.github.io/webComponents/css/9002/customStyles.css)"));
-    // Inject jQuery
-    page.ClientScript.RegisterStartupScript(page.GetType(), "clientScript1", string.Format("<script type=\"text/javascript\" language=\"javascript\"src=\"{0}\"></script>", "[https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js](https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js)"));
-}
-
-
 🔐 Security & Anti-Forgery (Security)
 
 // XSRF Validation
